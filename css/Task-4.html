@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        .box{
+            width: 75px;
+            height: 75px;
+            margin: 5px;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-right: 30px;
+            transition: 0.5s;
+        }
+        #box1{
+            background-color: green;
+        }
+        #box2{
+            background-color: skyblue;
+        }
+        #box3{
+            background-color: red;
+        }
+        #box4{
+            background-color: black;
+        }
+        .box:hover {
+            width: 100px;
+            margin-right: 5px;
+            
+        }
+        body,html{
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .boxes{
+          padding-top: 30px;
+      
+    
+        }
+        .cont{
+            padding: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+    <div class="cont">
+    <h1><b><i>Hoverable Sidenav Buttons</i></b></h1>
+    <h4>Hover over the buttons in the left side navigation to open them</h4>
+    </div>
+</body>
+</html>

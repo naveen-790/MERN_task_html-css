@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        .v1{
+            padding: 10px;
+            border: 2px solid black;
+            width: 200px;
+        }
+        .v2{
+            border: 1px solid white;
+            background-color: skyblue;
+        }
+        .view:hover{
+            background-color: orange;
+        }
+        .view{
+            padding: 10px;
+            font-size: 25px;
+        }
+        .hz1{
+            padding: 10px;
+            border: 2px solid black;
+            width: 600px;
+        }
+        .hz2{
+            display: inline;
+            border: 1px solid white;
+            background-color: rgb(188, 184, 184);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .view1{
+            padding: 10px;
+            font-size: 25px;
+            color: blue;
+            border-right: 1px solid blue;
+        }
+        .view1:hover{
+            background-color: grey;
+            color: white;
+        }
+        body{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .vert.horz{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="vert">
+    <div>
+        <h4><b>Vertical Navigation Bar</b></h4>
+    </div>
+    <div class="v1">
+        <div class="v2">
+                <div class="view"><label><b>Home</b></label></div>
+                <div class="view"><label><b>Java</b></label></div>
+                <div class="view"><label><b>CSS</b></label></div>
+                <div class="view"><label><b>HTML</b></label></div>
+                <div class="view"><label><b>Boot strap</b></label></div>
+        </div>
+    </div>
+    </div>
+    <div class="horz">
+    <div>
+        <h4><b>Horizontal Navigation Bar</b></h4>
+    </div>
+    <div class="hz1">
+        <div class="hz2">
+            <div class="view1"><label><b>Home</b></label></div>
+            <div class="view1"><label><b>Java</b></label></div>
+            <div class="view1"><label><b>CSS</b></label></div>
+            <div class="view1"><label><b>html</b></label></div>
+            <div class="view1"><label><b>Boot strap</b></label></div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
